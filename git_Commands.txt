@@ -38,3 +38,14 @@ $ git push origin develop
 
 ---create new feature branch
 git checkout-b feature/extra_learning
+
+--delete branch
+git branch -D (branch_name)
+
+-- pull changes for the remote branch
+git pull origin master (pull from the remote master branch to local master branch)
+git pull origin develop (pull from the remote develop branch to local develop branch)
+
+--- list out the branches in local repo
+git branch (local)
+git branch -a (remote) (always display as remote/origin)
