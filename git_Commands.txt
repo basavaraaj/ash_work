@@ -27,5 +27,14 @@ git remote add origin git@github.com:basavaraaj/ash_work.git
 -- push the current project/local repo
 git push origin master
 
--- create new branch
+-- create new branch (git checkout -b branchName)
 $ git checkout -b develop
+
+-- switch to another branch (git checkout branchName)
+$ git checkout master
+
+--- push develop branch to remote server repo
+$ git push origin develop
+
+---create new feature branch
+git checkout-b feature/extra_learning
